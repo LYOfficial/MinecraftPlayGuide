@@ -103,7 +103,7 @@
 
 ## 指令
 
--[【TCP|Ms】 基础实用指令应用技巧教程](https://www.mcbbs.net/thread-486184-1-1.html)
+- [【TCP|Ms】 基础实用指令应用技巧教程](https://www.mcbbs.net/thread-486184-1-1.html)
 - [【命令教程|索引】命令教程“真”从零开始 【至第19篇】](https://www.mcbbs.net/thread-1403038-1-1.html)
 
 ## 建筑

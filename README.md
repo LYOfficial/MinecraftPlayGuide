@@ -54,11 +54,13 @@
 
 ### Java下载
 
-- [清华镜像站](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/)：国内适用的镜像站，访问快，下载快
+- [OpenJDK](https://openjdk.org/)原版 OpenJDK 下载，国内下载较缓慢
 - [Oracle JDK](https://www.oracle.com/java/technologies/java-se-glance.html)：官方的 JDK 下载，下载需登录，商业使用受限
 - [Azul Zulu](https://www.azul.com/downloads/)：Azul 提供的 OpenJDK
 - [BellSoft Liberica JDK](https://bell-sw.com/pages/downloads/)：BellSoft 提供的 OpenJDK
-- [Eclipse Temurin](https://adoptium.net/)：Eclipse 基金会提供的 OpenJDK
+- [Eclipse Temurin](https://adoptium.net/zh-CN/temurin/releases/)：Eclipse 基金会提供的 OpenJDK
+- [清华镜像站](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/)：国内适用的Temurin镜像站，访问快
+- [中科大镜像站](https://mirrors.ustc.edu.cn/AdoptOpenJDK/)
 - [Amazon Corretto](https://aws.amazon.com/cn/corretto/)：亚马逊提供的 OpenJDK
 
 ## 生存

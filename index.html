@@ -1,0 +1,832 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style>/* copy from https://github.com/sindresorhus/github-markdown-css/ */
+
+html,body{background-color: #2d2d2d;}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+  color: #cccccc;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body figure{margin:0;padding:0; display:table;}
+.markdown-body figure figcaption{font-size:92%; text-align:center; color:#999999;}
+
+.markdown-body .anchor {
+  float: left;
+  line-height: 1;
+  margin-left: -20px;
+  padding-right: 4px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #66cccc;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body details {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body a {
+  background-color: initial;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+.markdown-body strong{
+  color: #f99157;
+}
+.markdown-body em{
+  color: #ffcc66;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+.markdown-body img {
+  border-style: none;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body hr {
+  box-sizing: initial;
+  height: 0;
+  overflow: visible;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body input {
+  overflow: visible;
+}
+
+.markdown-body [type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body a {
+  color: #99cc99;
+  text-decoration: none;
+}
+.markdown-body mjx-container[jax="SVG"] > svg a{fill:#99cc99;stroke: #99cc99;}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body hr:after,
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 12px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  line-height: 12px;
+  color: #999999;
+  vertical-align: middle;
+  background-color: #333333;
+  border: 1px solid #494949;
+  border-radius: 3px;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body h1 {
+  font-size: 32px;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  font-weight: 600;
+}
+
+.markdown-body h2 {
+  font-size: 24px;
+}
+
+.markdown-body h3 {
+  font-size: 20px;
+}
+
+.markdown-body h3,
+.markdown-body h4 {
+  font-weight: 600;
+}
+
+.markdown-body h4 {
+  font-size: 16px;
+}
+
+.markdown-body h5 {
+  font-size: 14px;
+}
+
+.markdown-body h5,
+.markdown-body h6 {
+  font-weight: 600;
+}
+
+.markdown-body h6 {
+  font-size: 12px;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ol ol ol,
+.markdown-body ol ul ol,
+.markdown-body ul ol ol,
+.markdown-body ul ul ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body input::-webkit-inner-spin-button,
+.markdown-body input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body:after,
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  clear: both;
+}
+
+.markdown-body>:first-child {
+  margin-top: 0!important;
+}
+
+.markdown-body>:last-child {
+  margin-bottom: 0!important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body blockquote,
+.markdown-body details,
+.markdown-body dl,
+.markdown-body ol,
+.markdown-body p,
+.markdown-body pre,
+.markdown-body table,
+.markdown-body ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #494949;
+  border: 0;
+}
+
+.markdown-body blockquote {
+  padding: 0 1em;
+  color: #9b9b9b;
+  border-left: .25em solid #f2777a;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+}
+
+.markdown-body h1,
+.markdown-body h2 {
+  padding-bottom: .3em;
+  border-bottom: 1px solid #434343;
+  color: #66cccc;
+}
+
+.markdown-body h2 {
+  font-size: 1.5em;
+  color: #66cccc;
+}
+
+.markdown-body h3 {
+  font-size: 1.25em;
+  color: #66cccc;
+}
+
+.markdown-body h4 {
+  font-size: 1em;
+  color: #66cccc;
+}
+
+.markdown-body h5 {
+  font-size: .875em;
+  color: #66cccc;
+}
+
+.markdown-body h6 {
+  font-size: .85em;
+  color: #66cccc;
+}
+
+.markdown-body ol,
+.markdown-body ul {
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ol ul,
+.markdown-body ul ol,
+.markdown-body ul ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li {
+  word-wrap: break-all;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  padding: 6px 13px;
+  border: 1px solid #717171;
+}
+
+.markdown-body table tr {
+  background-color: #2d2d2d;
+  border-top: 1px solid #717171;
+}
+
+.markdown-body table th {
+  background-color: #434343;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #323232;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: initial;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: #333333;
+  color: #999999;
+  border-radius: 3px;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+   font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #333333;
+  border-radius: 3px;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: initial;
+  border: 0;
+  color: #999999;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+.markdown-body section.footnotes{
+    margin-top:48px;
+    border-top:solid 1px #494949;
+    padding-top:0px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .markdown-body mark{color: #111;}
+}
+
+/* PrismJS 1.23.0
+https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+@media print {
+    code[class*="language-"],
+    pre[class*="language-"] {
+        text-shadow: none;
+    }
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+    background-color: #333333;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+    white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #48be66;
+}
+
+.token.punctuation {
+    color: #8b86c9;
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #8b86c9;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #e6424b;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #$$codeBlockColor$$;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #c33795;
+}
+
+.token.function,
+.token.class-name {
+    color: #67878e;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #d38e63;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+
+pre[class*="language-"].line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber;
+}
+
+pre[class*="language-"].line-numbers > code {
+  position: relative;
+  white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em; /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #6b6b6b;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+  .line-numbers-rows > span {
+    display: block;
+    counter-increment: linenumber;
+  }
+
+    .line-numbers-rows > span:before {
+      content: counter(linenumber);
+      color: #6b6b6b;
+      display: block;
+      padding-right: 0.8em;
+      text-align: right;
+    }
+
+
+</style> <style>.mweb-charts{background:#fff;}
+body{ box-sizing: border-box;
+    margin: 0 auto;
+    padding: 28px}
+@media print{
+    pre, code, pre code {
+     overflow: visible !important;
+     white-space: pre-wrap !important;       /* css-3 */
+     white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+     white-space: -pre-wrap !important;      /* Opera 4-6 */
+     white-space: -o-pre-wrap !important;    /* Opera 7 */
+     word-wrap: break-word !important;       /* Internet Explorer 5.5+ */
+    }
+    html,body{margin:0;padding:4px;}
+}
+
+</style><script>window.MathJax = {     tex: { tags: 'ams', inlineMath: [ ['$','$'], ['\\(','\\)'] ] },     startup: {     pageReady() {       return MathJax.startup.defaultPageReady().then(function () {          window.mweb_mathjax_ready_val = 'yes';          if(window.mweb_mathjax_ready !== undefined){ mweb_mathjax_ready(); }       });     }   }};document.addEventListener('DOMContentLoaded', function(event) {    if (typeof Prism != 'undefined') {         Prism.highlightAll();     }});window.mweb_mathjax_ready_val = '';function theMWebMathJaxRenderIsReady(key){ return window.mweb_mathjax_ready_val; }</script><script>document.addEventListener('DOMContentLoaded', function(event) {window.mweb_mathjax_ready_val = 'yes';})</script></head><body><div id='markdown_content' class='markdown-body'><h1><a id="%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%B8%B8%E7%8E%A9%E4%B8%AD%E6%96%87%E6%8C%87%E5%8D%97" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>我的世界游玩中文指南</h1>
+<p><img src="https://img.shields.io/badge/license-CC--BY--SA--4.0-green" alt="" /> <img src="https://img.shields.io/github/stars/LYOfficial/MinecraftPlayGuide" alt="" /></p>
+<p><strong>点击右上角的“Watch”按钮以实时获更新通知，点击右上方“Star”按钮来支持我们的编写。</strong></p>
+<p><strong>欢迎各位 <a href="https://github.com/LYOfficial/MinecraftPlayGuide/issues/new">在此</a> 提交各类我的世界游玩相关包括生存、红石、指令、建筑等等属于Java版原版游戏生存创造过程中的一切经历体验和技巧心得。也可以 <a href="https://github.com/LYOfficial/MinecraftPlayGuide/issues/new">在这里</a> 提出你的问题，我们会看到的。</strong></p>
+<p>欢迎各位fork后进行增添，感谢每一位贡献者的pr！</p>
+<h2><a id="%E7%9B%AE%E5%BD%95" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>目录</h2>
+<ul>
+<li><a href="#%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99">常用网站</a></li>
+<li><a href="#%E5%87%86%E5%A4%87">准备</a>：<a href="#%E8%B4%AD%E4%B9%B0">购买</a>、<a href="#%E4%B8%8B%E8%BD%BD">下载</a>、<a href="#Java%E4%B8%8B%E8%BD%BD">Java下载</a></li>
+<li><a href="#%E7%94%9F%E5%AD%98">生存</a></li>
+<li><a href="#%E7%BA%A2%E7%9F%B3">红石</a>：<a href="#%E7%90%86%E8%AE%BA">理论</a>、<a href="#%E7%94%9F%E7%94%B5">生电</a>、<a href="#%E6%A2%B0%E7%94%B5">械电</a>、<a href="#%E6%95%B0%E7%94%B5">数电</a>、<a href="#%E6%A8%A1%E7%94%B5">模电</a></li>
+<li><a href="#%E6%8C%87%E4%BB%A4">指令</a></li>
+<li><a href="#%E5%BB%BA%E7%AD%91">建筑</a></li>
+<li><a href="#%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E">版权声明</a></li>
+</ul>
+<h2><a id="%E5%B8%B8%E7%94%A8%E7%BD%91%E7%AB%99" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>常用网站</h2>
+<h3><a id="minecraft-wiki-https-minecraft-fandom-comzhwiki" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://minecraft.fandom.com/zh/wiki/">Minecraft Wiki</a></h3>
+<p>官方Wiki的中文网站，一切知识的源头。</p>
+<h3><a id="%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E4%B8%AD%E6%96%87%E8%AE%BA%E5%9D%9B%E6%B8%B8%E6%88%8F%E6%8A%80%E5%B7%A7%E6%9D%BF%E5%9D%97https-www-mcbbs-netforum-gameplay-1-html" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.mcbbs.net/forum-gameplay-1.html">我的世界中文论坛游戏技巧板块</a></h3>
+<p>十年历史的老版块，里面可以找到各个版本的游戏技巧教程。</p>
+<h3><a id="chunkbase-https-www-chunkbase-com" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.chunkbase.com/">Chunkbase</a></h3>
+<p>实用的区块查询器，可以查看种子内特殊地形的生成。</p>
+<h3><a id="%E5%91%BD%E4%BB%A4%E6%96%B9%E5%9D%97%E6%8C%87%E4%BB%A4%E7%94%9F%E6%88%90%E5%99%A8https-www-mcmod-cntoolscbcreator" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://www.mcmod.cn/tools/cbcreator/">命令方块指令生成器</a></h3>
+<p>来自mcmod网站的生成器，方便实用。</p>
+<h3><a id="%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E7%99%BE%E5%BA%A6https-www-baidu-com%E5%BF%85%E5%BA%94-https-www-bing-com%E8%B0%B7%E6%AD%8C-https-www-google-com" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>搜索引擎<a href="https://www.baidu.com">百度</a>/<a href="https://www.bing.com">必应</a>/<a href="https://www.google.com">谷歌</a></h3>
+<p>有什么问题为什么不先百度一下呢？</p>
+<h2><a id="%E5%87%86%E5%A4%87" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>准备</h2>
+<p>欢迎来到《我的世界》（Minecraft）！</p>
+<p>首先，请注意《我的世界》是一款商业游戏，除部分特殊增值功能外，您可以以终身买断的形式享受到绝大部分的游戏功能，而且各版本目前依旧在开发之中。</p>
+<p>下面是购买和下载相关链接。</p>
+<h3><a id="%E8%B4%AD%E4%B9%B0" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>购买</h3>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-269349-1-1.html">《我的世界》各平台版本介绍</a></li>
+<li><a href="https://www.mcbbs.net/thread-1301727-1-1.html">《我的世界：Java 版》正版介绍与购买渠道</a></li>
+<li><a href="https://www.mcbbs.net/thread-1301737-1-1.html">《我的世界：Java 版》官网入正指南</a></li>
+</ul>
+<h3><a id="%E4%B8%8B%E8%BD%BD" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>下载</h3>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-38297-1-1.html">我的世界Minecraft Java版 下载指南|文件结构说明|推荐启动器</a></li>
+</ul>
+<h3><a id="java%E4%B8%8B%E8%BD%BD" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Java下载</h3>
+<ul>
+<li><a href="https://openjdk.org/">OpenJDK</a>原版 OpenJDK 下载，国内下载较缓慢</li>
+<li><a href="https://www.oracle.com/java/technologies/java-se-glance.html">Oracle JDK</a>：官方的 JDK 下载，下载需登录，商业使用受限</li>
+<li><a href="https://www.azul.com/downloads/">Azul Zulu</a>：Azul 提供的 OpenJDK</li>
+<li><a href="https://bell-sw.com/pages/downloads/">BellSoft Liberica JDK</a>：BellSoft 提供的 OpenJDK</li>
+<li><a href="https://adoptium.net/zh-CN/temurin/releases/">Eclipse Temurin</a>：Eclipse 基金会提供的 OpenJDK</li>
+<li><a href="https://mirrors.tuna.tsinghua.edu.cn/Adoptium/">清华镜像站</a>：国内适用的Temurin镜像站，访问快</li>
+<li><a href="https://mirrors.ustc.edu.cn/AdoptOpenJDK/">中科大镜像站</a></li>
+<li><a href="https://aws.amazon.com/cn/corretto/">Amazon Corretto</a>：亚马逊提供的 OpenJDK</li>
+</ul>
+<h2><a id="%E7%94%9F%E5%AD%98" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>生存</h2>
+<p>欢迎来到生存模式，生存是发展的一切前提，请珍惜自己的生命和物资！</p>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-85937-1-1.html">MC最全面图文教程【索引帖】</a></li>
+</ul>
+<h2><a id="%E7%BA%A2%E7%9F%B3" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>红石</h2>
+<p>红石是科技发展的关键，学习红石技术，可以让你的全自动获取资源！</p>
+<p>红石分几大类，生械数模，各有奥妙，抓稳理论，才能创新！</p>
+<h3><a id="%E7%90%86%E8%AE%BA" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>理论</h3>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-1355338-1-1.html">【TECO出品】红石理论|总索引</a></li>
+<li><a href="https://www.mcbbs.net/thread-1355226-1-1.html">《红石理论》| Part I 红石·理论基础</a></li>
+</ul>
+<h3><a id="%E7%94%9F%E7%94%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>生电</h3>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-1355255-1-1.html">《红石理论》| Part II 生电·理论基础</a></li>
+</ul>
+<h3><a id="%E6%A2%B0%E7%94%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>械电</h3>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-636639-1-1.html">【TRP】概念式红石械电基础教程 - 总索引</a></li>
+</ul>
+<h3><a id="%E6%95%B0%E7%94%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>数电</h3>
+<ul>
+<li>
+<p><a href="https://www.mcbbs.net/thread-25775-1-1.html">【sjjklh红石基础教程系列】索引贴 —— 红石神教千秋万载！</a></p>
+</li>
+<li>
+<p><a href="https://www.mcbbs.net/thread-113169-1-1.html">【TRP红石进阶教程系列】索引贴 —— 红石神教千秋万载！ </a></p>
+</li>
+</ul>
+<h3><a id="%E6%A8%A1%E7%94%B5" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>模电</h3>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-574624-1-1.html">【TRP|HappyWater】32位红石电脑RSC-3230（无命令方块）</a></li>
+<li><a href="https://www.mcbbs.net/thread-246679-1-1.html">【模电 黑科技】超强信号的发生与应用</a></li>
+</ul>
+<h2><a id="%E6%8C%87%E4%BB%A4" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>指令</h2>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-486184-1-1.html">【TCP|Ms】 基础实用指令应用技巧教程</a></li>
+<li><a href="https://www.mcbbs.net/thread-1403038-1-1.html">【命令教程|索引】命令教程“真”从零开始 【至第19篇】</a></li>
+</ul>
+<h2><a id="%E5%BB%BA%E7%AD%91" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>建筑</h2>
+<ul>
+<li><a href="https://www.mcbbs.net/thread-378200-1-1.html">豹先生教你做建筑告别方盒子合集</a></li>
+</ul>
+<h2><a id="%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>版权声明</h2>
+<p>本作品作者为我的世界游玩中文指南所有贡献者。</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+<p>转载请附上本作品链接： <a href="https://github.com/LYOfficial/MinecraftPlayGuide">https://github.com/LYOfficial/MinecraftPlayGuide</a></p>
+<h2><a id="%E7%BB%9F%E8%AE%A1%E4%BF%A1%E6%81%AF" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>统计信息</h2>
+<h3><a id="stargazers-over-time" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stargazers over time</h3>
+<p><a href="https://starchart.cc/LYOfficial/MinecraftPlayGuide"><img src="https://starchart.cc/LYOfficial/MinecraftPlayGuide.svg" alt="Stargazers over time" /></a></p>
+</div></body></html>

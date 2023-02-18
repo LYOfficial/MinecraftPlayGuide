@@ -6,6 +6,7 @@
 **欢迎各位 [在此](https://github.com/LYOfficial/MinecraftPlayGuide/issues/new) 提交各类我的世界游玩相关包括生存、红石、指令、建筑等等属于Java版原版游戏生存创造过程中的一切经历体验和技巧心得。也可以 [在这里](https://github.com/LYOfficial/MinecraftPlayGuide/issues/new) 提出你的问题，我们会看到的。**
 
 欢迎各位fork后进行增添，感谢每一位贡献者的pr！
+为适应Markdown表格格式，部分标题做出了一点修改，请谅解！
 
 ## 目录
 - [常用网站](#常用网站)
@@ -67,7 +68,6 @@
 - [中科大镜像站](https://mirrors.ustc.edu.cn/AdoptOpenJDK/)
 - [Amazon Corretto](https://aws.amazon.com/cn/corretto/)：亚马逊提供的 OpenJDK
 
-
 ## 新手教程
 
 | 适用版本 | 标题 | 作者 | 最后更新时间
@@ -79,7 +79,7 @@
 ### 理论
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
-| 1.16+  | [【TECO出品】《红石理论》| 总索引](https://www.mcbbs.net/thread-1355338-1-1.html) | [冷域LYOfficial](https://www.mcbbs.net/home.php?mod=space&uid=3463984) | 2023-1-25 |
+| 1.16+  | [【TECO出品】《红石理论》总索引](https://www.mcbbs.net/thread-1355338-1-1.html) | [冷域LYOfficial](https://www.mcbbs.net/home.php?mod=space&uid=3463984) | 2023-1-25 |
 |1.5+|[【TRP红石进阶教程系列】索引贴 —— 红石神教千秋万载！](https://www.mcbbs.net/thread-113169-1-1.html)|[719823597](https://www.mcbbs.net/home.php?mod=space&uid=47)|2014-3-3|
 |1.5+|[【sjjklh红石基础教程系列】索引贴 —— 红石神教千秋万载！](https://www.mcbbs.net/thread-25775-1-1.html)|[sjjklh](https://www.mcbbs.net/home.php?mod=space&uid=3467)|2012-6-8|
 |1.5|[Sinew 红石教程【基础篇】——索引贴](https://www.mcbbs.net/thread-60037-1-1.html)|[sinew28](https://www.mcbbs.net/home.php?mod=space&uid=20037)| 2012-11-24|
@@ -102,7 +102,7 @@
 ### 数模
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
-| /  | [【TRP|HappyWater】32位红石电脑RSC-3230（无命令方块）](https://www.mcbbs.net/thread-574624-1-1.html) | HappyWater | 2016-4-19 |
+| /  | [【TRP-HappyWater】32位红石电脑RSC-3230（无命令方块）](https://www.mcbbs.net/thread-574624-1-1.html) | HappyWater | 2016-4-19 |
 |  / | [【TRP小组】负堆叠——渣模信号的研究](https://www.mcbbs.net/thread-522573-1-1.html) |[阿散ASun](https://www.mcbbs.net/home.php?mod=space&uid=975256) | 2015-11-27|
 |/ |[【GO红石】高科技红石按键密码门，密码门的新突破！](https://www.mcbbs.net/thread-452612-1-1.html)|[飞翔末影龙](https://www.mcbbs.net/home.php?mod=space&uid=504081)| 2015-6-13 |
 |/|[【TRP】10HZ高频模电红石战术核显卡](https://www.mcbbs.net/thread-390830-1-1.html)|[圆石](https://www.mcbbs.net/home.php?mod=space&uid=630087)|2015-2-13|
@@ -117,11 +117,11 @@
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
 |1.19|【命令教程索引】命令教程“真”从零开始 |[Dahesor](https://www.mcbbs.net/home.php?mod=space&uid=2663122)|  2023-1-1 |
-| 1.14  |  [【CBL|00ll00】用最圆润的方法画一笔画 | 傅里叶本轮法](https://www.mcbbs.net/thread-892788-1-1.html) | [00ll00](https://www.mcbbs.net/home.php?mod=space&uid=1316165) | 2020-8-27|
+| 1.14  |  [【CBL-00ll00】用最圆润的方法画一笔画 | 傅里叶本轮法](https://www.mcbbs.net/thread-892788-1-1.html) | [00ll00](https://www.mcbbs.net/home.php?mod=space&uid=1316165) | 2020-8-27|
 |/|[实现A*(A-Star)寻路算法](https://www.mcbbs.net/thread-731088-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)| 2018-7-29 |
-|1.8.3+|[【TCP|Ms】 基础实用指令应用技巧教程](https://www.mcbbs.net/thread-486184-1-1.html)|[MsYqgzt](https://www.mcbbs.net/home.php?mod=space&uid=701270)|2018-7-25|
-|1.13|[【CBL|秋一】函数命令系统：当命令脱离命令方块](https://www.mcbbs.net/thread-691100-1-1.html)|[秋一](https://www.mcbbs.net/home.php?mod=space&uid=1205958)|2018-4-16|
-| 1.12 | [【CBL | 命令进阶 】适用1.12一份系统性的命令教程](https://www.mcbbs.net/thread-712996-1-1.html) | [pca006132](https://www.mcbbs.net/home.php?mod=space&uid=193048) | 2017-8-16 |
+|1.8.3+|[【TCP-Ms】 基础实用指令应用技巧教程](https://www.mcbbs.net/thread-486184-1-1.html)|[MsYqgzt](https://www.mcbbs.net/home.php?mod=space&uid=701270)|2018-7-25|
+|1.13|[【CBL-秋一】函数命令系统：当命令脱离命令方块](https://www.mcbbs.net/thread-691100-1-1.html)|[秋一](https://www.mcbbs.net/home.php?mod=space&uid=1205958)|2018-4-16|
+| 1.12 | [【CBL-命令进阶 】适用1.12一份系统性的命令教程](https://www.mcbbs.net/thread-712996-1-1.html) | [pca006132](https://www.mcbbs.net/home.php?mod=space&uid=193048) | 2017-8-16 |
 |1.7-1.9|[MC：指令方块教程/作品索引](https://www.mcbbs.net/thread-210012-1-1.html)|[PotatoMaster101](https://www.mcbbs.net/home.php?mod=space&uid=466381)|2017-6-29|
 |1.8.3|[45+10个命令基础用法教程](https://www.mcbbs.net/thread-440268-1-1.html)|[End-Enderman](https://www.mcbbs.net/home.php?mod=space&uid=1000730)|2017-8-9|
 |/|[【CBL】第三人称控制器](https://www.mcbbs.net/thread-665934-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)|2017-1-23|
@@ -160,8 +160,8 @@
 |/|[【CBL∫2b】Loottable - 创造一个看脸讲玄的世界  总索引](https://www.mcbbs.net/thread-619468-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)|2016-10-2|
 |1.10|[结构方块从入门到放弃](https://www.mcbbs.net/thread-585095-1-1.html)|[bobby825](https://www.mcbbs.net/home.php?mod=space&uid=254361)|2016-5-27|
 |/|[【TRP出品】【乙烯】小游戏【扫雷】的具体原理分析](https://www.mcbbs.net/thread-440531-1-1.html)|[乙烯_中国](https://www.mcbbs.net/home.php?mod=space&uid=1073223)|2016-3-20|
-|/|[【CBL|SYL】Json/tellraw教程索引贴](https://www.mcbbs.net/thread-205332-1-1.html)|[sylqiuyifeng](https://www.mcbbs.net/home.php?mod=space&uid=27076)|2015-5-23|
-|/|[【CBL|SYL】NBT标签实战教程—索引贴(基本完工)](https://www.mcbbs.net/thread-78479-1-1.html)|[sylqiuyifeng](https://www.mcbbs.net/home.php?mod=space&uid=27076)|2015-3-13|
+|/|[【CBL-SYL】Json/tellraw教程索引贴](https://www.mcbbs.net/thread-205332-1-1.html)|[sylqiuyifeng](https://www.mcbbs.net/home.php?mod=space&uid=27076)|2015-5-23|
+|/|[【CBL-SYL】NBT标签实战教程—索引贴(基本完工)](https://www.mcbbs.net/thread-78479-1-1.html)|[sylqiuyifeng](https://www.mcbbs.net/home.php?mod=space&uid=27076)|2015-3-13|
 |1.7.2|[【TRP】用红石做五子棋教程](https://www.mcbbs.net/thread-307503-1-1.html)|[1127193030](https://www.mcbbs.net/home.php?mod=space&uid=183463)|2014-7-27|
 |1.6+|[自动贩卖机稳定版可无限延长（有教程）](https://www.mcbbs.net/thread-220075-1-1.html)|[PpY_SK](https://www.mcbbs.net/home.php?mod=space&uid=134344)|2014-2-10|
 |/|[【教程】 动态材质的制作](https://www.mcbbs.net/thread-17083-1-1.html)|[green丶bastard](https://www.mcbbs.net/home.php?mod=space&uid=562)|2012-1-21|

@@ -90,7 +90,7 @@
 |:----------: | :----------: | :-----------:  | :-----------:  |
 |/|[【MCJE原理详解】“僵尸增援”铜锭农场的设计](https://www.mcbbs.net/thread-1426357-1-1.html)|[Yimingtoo](https://www.mcbbs.net/home.php?mod=space&uid=5005475)|2023-2-9|
 |1.16.5+|[适用于单人生存的单区块高效南瓜种植解决方案](https://www.mcbbs.net/thread-1397145-1-1.html)|[Yimingtoo](https://www.mcbbs.net/home.php?mod=space&uid=5005475)|2022-11-17|
-|  1.16.4 |  【精准玩家炮】可以称它为俄式珍珠炮 | [gunman](https://www.mcbbs.net/home.php?mod=space&uid=666493) | 2021-8-8 |
+|  1.16.4 |  [【精准玩家炮】可以称它为俄式珍珠炮](https://www.mcbbs.net/thread-1203866-1-1.html) | [gunman](https://www.mcbbs.net/home.php?mod=space&uid=666493) | 2021-8-8 |
 |/|[【真刷怪塔教程】井字型刷怪塔](https://www.mcbbs.net/thread-5332-1-1.html)|[cy1111](https://www.mcbbs.net/home.php?mod=space&uid=5326)|2011-6-1|
 ### 械电
 | 适用版本 | 标题 | 作者 | 最后更新时间
@@ -117,7 +117,7 @@
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
 |1.19|【命令教程索引】命令教程“真”从零开始 |[Dahesor](https://www.mcbbs.net/home.php?mod=space&uid=2663122)|  2023-1-1 |
-| 1.14  |  [【CBL-00ll00】用最圆润的方法画一笔画 | 傅里叶本轮法](https://www.mcbbs.net/thread-892788-1-1.html) | [00ll00](https://www.mcbbs.net/home.php?mod=space&uid=1316165) | 2020-8-27|
+| 1.14  |  [【CBL-00ll00】用最圆润的方法画一笔画-傅里叶本轮法](https://www.mcbbs.net/thread-892788-1-1.html) | [00ll00](https://www.mcbbs.net/home.php?mod=space&uid=1316165) | 2020-8-27|
 |/|[实现A*(A-Star)寻路算法](https://www.mcbbs.net/thread-731088-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)| 2018-7-29 |
 |1.8.3+|[【TCP-Ms】 基础实用指令应用技巧教程](https://www.mcbbs.net/thread-486184-1-1.html)|[MsYqgzt](https://www.mcbbs.net/home.php?mod=space&uid=701270)|2018-7-25|
 |1.13|[【CBL-秋一】函数命令系统：当命令脱离命令方块](https://www.mcbbs.net/thread-691100-1-1.html)|[秋一](https://www.mcbbs.net/home.php?mod=space&uid=1205958)|2018-4-16|
@@ -171,7 +171,6 @@
 |:----------: | :----------: | :-----------:  | :-----------:  |
 | /| [【E.C-Tec.】乙烯_中国技巧索引！](https://www.mcbbs.net/thread-536728-1-1.html)| [乙烯_中国](https://www.mcbbs.net/home.php?mod=space&uid=1073223)|全文已无法显示 |
 |  / | [明月庄主的视频索引贴](https://www.mcbbs.net/thread-310857-1-1.html)|[明月庄主](https://www.mcbbs.net/home.php?mod=space&uid=31018) | 图片已无法显示 |
-
 ## 版权声明
 本作品作者为我的世界游玩中文指南所有贡献者。
 主要贡献着为：[冷域LYOfficial](https://www.mcbbs.net/?3463984)和[Stone_ingot](https://www.mcbbs.net/?4051252)。

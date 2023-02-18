@@ -116,7 +116,7 @@
 ## 指令教程
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
-|1.19|【命令教程索引】命令教程“真”从零开始 |[Dahesor](https://www.mcbbs.net/home.php?mod=space&uid=2663122)|  2023-1-1 |
+|1.19|【[命令教程索引】命令教程“真”从零开始 ](https://www.mcbbs.net/thread-1403038-1-2.html)|[Dahesor](https://www.mcbbs.net/home.php?mod=space&uid=2663122)|  2023-1-1 |
 | 1.14  |  [【CBL-00ll00】用最圆润的方法画一笔画-傅里叶本轮法](https://www.mcbbs.net/thread-892788-1-1.html) | [00ll00](https://www.mcbbs.net/home.php?mod=space&uid=1316165) | 2020-8-27|
 |/|[实现A*(A-Star)寻路算法](https://www.mcbbs.net/thread-731088-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)| 2018-7-29 |
 |1.8.3+|[【TCP-Ms】 基础实用指令应用技巧教程](https://www.mcbbs.net/thread-486184-1-1.html)|[MsYqgzt](https://www.mcbbs.net/home.php?mod=space&uid=701270)|2018-7-25|

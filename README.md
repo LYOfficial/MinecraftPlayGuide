@@ -72,6 +72,7 @@
 
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
+|/|[【咸鱼人的生存指南】新手教程系列](https://www.mcbbs.net/thread-1431446-1-1.html)|[ETW_Derp](https://www.mcbbs.net/?211532)|2023-4-25|
 | 1.6-1.8  | [MC最全面图文教程【索引贴】【已停止更新】](https://www.mcbbs.net/thread-306601-1-1.html)  | [龙腾猫跃](https://www.mcbbs.net/home.php?mod=space&uid=145106) | 2020-1-22 |
 
 ## 红石教程
@@ -88,6 +89,7 @@
 ### 生电
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
+|1.18±|[MC小白如何开好生电坑——从入门到入土](https://www.mcbbs.net/thread-1428002-1-1.html)|[Stone_ingot](https://www.mcbbs.net/home.php?mod=space&uid=4051252)|2023-4-26|
 |/|[【MCJE原理详解】“僵尸增援”铜锭农场的设计](https://www.mcbbs.net/thread-1426357-1-1.html)|[Yimingtoo](https://www.mcbbs.net/home.php?mod=space&uid=5005475)|2023-2-9|
 |1.16.5+|[适用于单人生存的单区块高效南瓜种植解决方案](https://www.mcbbs.net/thread-1397145-1-1.html)|[Yimingtoo](https://www.mcbbs.net/home.php?mod=space&uid=5005475)|2022-11-17|
 |  1.16.4 |  [【精准玩家炮】可以称它为俄式珍珠炮](https://www.mcbbs.net/thread-1203866-1-1.html) | [gunman](https://www.mcbbs.net/home.php?mod=space&uid=666493) | 2021-8-8 |
@@ -116,7 +118,7 @@
 ## 指令教程
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
-|1.19|【[命令教程索引】命令教程“真”从零开始 ](https://www.mcbbs.net/thread-1403038-1-2.html)|[Dahesor](https://www.mcbbs.net/home.php?mod=space&uid=2663122)|  2023-1-1 |
+|1.19|[【命令教程索引】命令教程“真”从零开始 ](https://www.mcbbs.net/thread-1403038-1-2.html)|[Dahesor](https://www.mcbbs.net/home.php?mod=space&uid=2663122)|  2023-1-1 |
 | 1.14  |  [【CBL-00ll00】用最圆润的方法画一笔画-傅里叶本轮法](https://www.mcbbs.net/thread-892788-1-1.html) | [00ll00](https://www.mcbbs.net/home.php?mod=space&uid=1316165) | 2020-8-27|
 |/|[实现A*(A-Star)寻路算法](https://www.mcbbs.net/thread-731088-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)| 2018-7-29 |
 |1.8.3+|[【TCP-Ms】 基础实用指令应用技巧教程](https://www.mcbbs.net/thread-486184-1-1.html)|[MsYqgzt](https://www.mcbbs.net/home.php?mod=space&uid=701270)|2018-7-25|
@@ -141,11 +143,19 @@
 |1.7-1.8|[【Mcedit&命令方块】SOFT的教程索引](https://www.mcbbs.net/thread-212571-1-1.html)|[songfeitong](https://www.mcbbs.net/home.php?mod=space&uid=237965)|2014-3-2|
 |/|[【阿果】室内装潢研究之■家具篇■](https://www.mcbbs.net/thread-75025-1-1.html)|[ql17934862](https://www.mcbbs.net/home.php?mod=space&uid=48505)| 2013-1-26|
 |/|[【阿果】室内装潢研究之■调色篇■](https://www.mcbbs.net/thread-71292-1-1.html)|[ql17934862](https://www.mcbbs.net/home.php?mod=space&uid=48505)| 2013-1-26|
-## 模组/数据包教程
+## 原版模组/数据包/资源包教程
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
 |  1.15+ | [使用数据包在mc中实现四色定理自动填充](https://www.mcbbs.net/thread-1188782-1-1.html) | [Chelover_C60](https://www.mcbbs.net/home.php?mod=space&uid=2612019) | 2021-11-9 |
 | 1.13-1.18  | [Minecraft 原版模组(数据包)入门教程](https://www.mcbbs.net/thread-784662-1-1.html) | [ruhuasiyu](https://www.mcbbs.net/home.php?mod=space&uid=975525) | 2020-1-22 |
+
+
+### 数据包体系结构
+
+
+
+### 资源包体系结构
+
 
 ## 着色教程
 | 适用版本 | 标题 | 作者 | 最后更新时间
@@ -156,6 +166,7 @@
 ## 其他教程
 | 适用版本 | 标题 | 作者 | 最后更新时间
 |:----------: | :----------: | :-----------:  | :-----------:  |
+|/|[从此崩溃不求人：MC崩溃检修速成课](https://www.mcbbs.net/thread-1420663-1-1.html)|lovexyn0827|2023-4-11|
 |1.19.3+|[『零知方块』一个帖子看懂雕纹书架](https://www.mcbbs.net/thread-1401860-1-1.html)|[冷域LYOfficial](https://www.mcbbs.net/home.php?mod=space&uid=3463984)|2022-12-3|
 |/|[【CBL∫2b】Loottable - 创造一个看脸讲玄的世界  总索引](https://www.mcbbs.net/thread-619468-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)|2016-10-2|
 |1.10|[结构方块从入门到放弃](https://www.mcbbs.net/thread-585095-1-1.html)|[bobby825](https://www.mcbbs.net/home.php?mod=space&uid=254361)|2016-5-27|
@@ -171,6 +182,8 @@
 |:----------: | :----------: | :-----------:  | :-----------:  |
 | /| [【E.C-Tec.】乙烯_中国技巧索引！](https://www.mcbbs.net/thread-536728-1-1.html)| [乙烯_中国](https://www.mcbbs.net/home.php?mod=space&uid=1073223)|全文已无法显示 |
 |  / | [明月庄主的视频索引贴](https://www.mcbbs.net/thread-310857-1-1.html)|[明月庄主](https://www.mcbbs.net/home.php?mod=space&uid=31018) | 图片已无法显示 |
+
+
 ## 版权声明
 本作品作者为我的世界游玩中文指南所有贡献者。
 主要贡献着为：[冷域LYOfficial](https://www.mcbbs.net/?3463984)和[Stone_ingot](https://www.mcbbs.net/?4051252)。

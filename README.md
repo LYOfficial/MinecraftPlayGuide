@@ -70,16 +70,17 @@
 
 ## 新手教程
 
-| 适用版本 | 标题 | 作者 | 最后更新时间
+| 适用版本 | 标题 | 作者 | 最后更新时间|
 |:----------: | :----------: | :-----------:  | :-----------:  |
-|/|[【咸鱼人的生存指南】新手教程系列](https://www.mcbbs.net/thread-1431446-1-1.html)|[ETW_Derp](https://www.mcbbs.net/?211532)|2023-4-25|
+|1.20|[【咸鱼人的生存指南】新手教程系列](https://www.mcbbs.net/thread-1431446-1-1.html)|[ETW_Derp](https://www.mcbbs.net/?211532)|2023-515|
 | 1.6-1.8  | [MC最全面图文教程【索引贴】【已停止更新】](https://www.mcbbs.net/thread-306601-1-1.html)  | [龙腾猫跃](https://www.mcbbs.net/home.php?mod=space&uid=145106) | 2020-1-22 |
 
 ## 红石教程
 
 ### 理论
-| 适用版本 | 标题 | 作者 | 最后更新时间
+| 适用版本 | 标题 | 作者 | 最后更新时间|
 |:----------: | :----------: | :-----------:  | :-----------:  |
+| /  | [更新抑制原理与CCE强转抑制效果的分析](https://www.mcbbs.net/thread-1466235-1-1.html) | [冷域LYOfficial](https://www.mcbbs.net/home.php?mod=space&uid=3463984) | 2023-8-25 |
 | 1.16+  | [【TECO出品】《红石理论》总索引](https://www.mcbbs.net/thread-1355338-1-1.html) | [冷域LYOfficial](https://www.mcbbs.net/home.php?mod=space&uid=3463984) | 2023-1-25 |
 |1.5+|[【TRP红石进阶教程系列】索引贴 —— 红石神教千秋万载！](https://www.mcbbs.net/thread-113169-1-1.html)|[719823597](https://www.mcbbs.net/home.php?mod=space&uid=47)|2014-3-3|
 |1.5+|[【sjjklh红石基础教程系列】索引贴 —— 红石神教千秋万载！](https://www.mcbbs.net/thread-25775-1-1.html)|[sjjklh](https://www.mcbbs.net/home.php?mod=space&uid=3467)|2012-6-8|
@@ -87,8 +88,9 @@
 |1.5|[Sinew的红石教程【晋级篇】—索引贴](https://www.mcbbs.net/thread-66654-1-1.html)|[sinew28](https://www.mcbbs.net/home.php?mod=space&uid=20037)| 2012-11-6|
 
 ### 生电
-| 适用版本 | 标题 | 作者 | 最后更新时间
+| 适用版本 | 标题 | 作者 | 最后更新时间|
 |:----------: | :----------: | :-----------:  | :-----------:  |
+|1.19|[”铜块氧化原理“以及”高效型铜块氧化农场设计“](https://www.mcbbs.net/thread-1463974-1-1.html)|[Yimingtoo](https://www.mcbbs.net/home.php?mod=space&uid=5005475)|2023-8-14|
 |1.18±|[MC小白如何开好生电坑——从入门到入土](https://www.mcbbs.net/thread-1428002-1-1.html)|[Stone_ingot](https://www.mcbbs.net/home.php?mod=space&uid=4051252)|2023-4-26|
 |/|[【MCJE原理详解】“僵尸增援”铜锭农场的设计](https://www.mcbbs.net/thread-1426357-1-1.html)|[Yimingtoo](https://www.mcbbs.net/home.php?mod=space&uid=5005475)|2023-2-9|
 |1.16.5+|[适用于单人生存的单区块高效南瓜种植解决方案](https://www.mcbbs.net/thread-1397145-1-1.html)|[Yimingtoo](https://www.mcbbs.net/home.php?mod=space&uid=5005475)|2022-11-17|
@@ -164,9 +166,11 @@
 | 21w10a+  | [核心着色器浅析](https://www.mcbbs.net/thread-1181123-1-1.html) | [晴路卡](https://www.mcbbs.net/home.php?mod=space&uid=1235427) |  2021-7-10 |
 | /| [原版资源包着色器与动画研究心得](https://www.mcbbs.net/thread-863730-1-1.html)|[貓狗喵](https://www.mcbbs.net/home.php?mod=space&uid=1944448) |2019-5-26 |
 ## 其他教程
-| 适用版本 | 标题 | 作者 | 最后更新时间
+| 适用版本 | 标题 | 作者 | 最后更新时间|
 |:----------: | :----------: | :-----------:  | :-----------:  |
-|/|[从此崩溃不求人：MC崩溃检修速成课](https://www.mcbbs.net/thread-1420663-1-1.html)|lovexyn0827|2023-4-11|
+|23w31a|[宏函数的缓存机制以及性能测试](https://www.mcbbs.net/thread-1461611-1-1.html)|[晴路卡](https://www.mcbbs.net/home.php?mod=space&uid=1235427)|2023-8-4|
+|/|[从此崩溃不求人：MC崩溃检修速成课](https://www.mcbbs.net/thread-1420663-1-1.html)|[lovexyn0827](https://www.mcbbs.net/home.php?mod=space&uid=3002779)|2023-4-11|
+|1.16.1|[速通-新手全指导教程](https://www.mcbbs.net/thread-1337667-1-1.html)|[Baron_2333](https://www.mcbbs.net/home.php?mod=space&uid=1793904)|2023-1-27|
 |1.19.3+|[『零知方块』一个帖子看懂雕纹书架](https://www.mcbbs.net/thread-1401860-1-1.html)|[冷域LYOfficial](https://www.mcbbs.net/home.php?mod=space&uid=3463984)|2022-12-3|
 |/|[【CBL∫2b】Loottable - 创造一个看脸讲玄的世界  总索引](https://www.mcbbs.net/thread-619468-1-1.html)|[贰逼](https://www.mcbbs.net/home.php?mod=space&uid=160123)|2016-10-2|
 |1.10|[结构方块从入门到放弃](https://www.mcbbs.net/thread-585095-1-1.html)|[bobby825](https://www.mcbbs.net/home.php?mod=space&uid=254361)|2016-5-27|
@@ -176,12 +180,6 @@
 |1.7.2|[【TRP】用红石做五子棋教程](https://www.mcbbs.net/thread-307503-1-1.html)|[1127193030](https://www.mcbbs.net/home.php?mod=space&uid=183463)|2014-7-27|
 |1.6+|[自动贩卖机稳定版可无限延长（有教程）](https://www.mcbbs.net/thread-220075-1-1.html)|[PpY_SK](https://www.mcbbs.net/home.php?mod=space&uid=134344)|2014-2-10|
 |/|[【教程】 动态材质的制作](https://www.mcbbs.net/thread-17083-1-1.html)|[green丶bastard](https://www.mcbbs.net/home.php?mod=space&uid=562)|2012-1-21|
-
-## 旧版/过期教程
-| 适用版本 | 标题 | 作者 | 归档原因|
-|:----------: | :----------: | :-----------:  | :-----------:  |
-| /| [【E.C-Tec.】乙烯_中国技巧索引！](https://www.mcbbs.net/thread-536728-1-1.html)| [乙烯_中国](https://www.mcbbs.net/home.php?mod=space&uid=1073223)|全文已无法显示 |
-|  / | [明月庄主的视频索引贴](https://www.mcbbs.net/thread-310857-1-1.html)|[明月庄主](https://www.mcbbs.net/home.php?mod=space&uid=31018) | 图片已无法显示 |
 
 
 ## 版权声明
